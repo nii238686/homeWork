@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Finlandica:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .s-container
+{
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.183);
+    background: #ffffff;
+}
+.container .s-container .boxes
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.container .s-container .box
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .s-container .box1
+{
+    background-color: red;
+}
+.container .s-container .box2
+{
+    background-color: blue;
+}
+.container .s-container .box3
+{
+    background-color: green;
+}
+.container .s-container .box4
+{
+    background-color: yellow;
+}
+.container .s-container .box5
+{
+    background-color: wheat;
+}
+.container .s-container .box6
+{
+    background-color: rgb(87, 146, 143);
+}
+.container .s-container .box7
+{
+    background-color: brown;
+}
+.container .s-container .box8
+{
+    background-color: darkviolet;
+}
+.container .s-container .box9
+{
+    background-color: rgba(0, 247, 255, 0.596);
+}
+.container .s-container .box10
+{
+    background-color: rgb(255, 0, 149);
+}
+.container .s-container .box11
+{
+    background-color: rgb(255, 179, 0);
+}
+.container .s-container .box12
+{
+    background-color: rgb(0, 255, 110);
+}
+.main-box
+{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-boxs
+{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+input
+{
+    outline: n;
+}
+/* .box1
+{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box2
+{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box3
+{
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box4
+{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box5
+{
+    width: 100px;
+    height: 100px;
+    background: wheat;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box6
+{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box7
+{
+    width: 100px;
+    height: 100px;
+    background: brown;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box8
+{
+    width: 100px;
+    height: 100px;
+    background: darkviolet;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box9
+{ 
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 247, 255, 0.596);
+    border-radius: 20px;
+    margin: 10px;
+}
+.box10
+{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 0, 149);
+    border-radius: 20px;
+    margin: 10px;
+}
+.box11
+{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 179, 0);
+    border-radius: 20px;
+    margin: 10px;
+}
+.box12
+{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 110);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.s-container
+{
+    width: 100%;
+    height: auto;
+}
+
+.big-box
+{
+    width: 95%;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.big-box h5
+{
+    text-align: center;
+    margin-top: 35px;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} */
+
+@media screen 
+{
+    
+}
